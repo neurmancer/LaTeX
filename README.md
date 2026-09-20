@@ -23,6 +23,13 @@
 - env.tex added 
 
 
+# Configs
+
+> I usually skip that part but you can find my zathurarc in the configs for custom colors and setting the db and shit
+
+> My neovim uses 4 space tabs since I like it that way but there is no nvim config file in the folder 'cuz it's a little more complicated due to astravim usage
+
+
 
 ```bash
 
@@ -31,6 +38,9 @@
 
 sudo pacman -S latexmk  # Dunno for other distros
 
+# I use a pdf displayer called zathura (which is perfect for LaTeX as far as I've seen)
+
+yay -S zathura
 
 
 ```

@@ -1,0 +1,61 @@
+set synctex true
+set synctex-editor-command "nvim --headless -c \"Luarequire('vimtex').view.zathura_inverse_search('%f', %l)\""
+
+set statusbar-home-tilde true
+set window-title-home-tilde true
+set selection-clipboard clipboard
+
+
+# Clipboard
+set selection-clipboard clipboard
+
+# Appearance
+set font "Courier New 12"          # or "monospace 12" / your preferred mono font
+set guioptions ""                  # clean look
+
+# Core colors
+set default-bg                  "#0d1117"
+set default-fg                  "#58a6ff"
+
+set statusbar-bg                "#161b22"
+set statusbar-fg                "#58a6ff"
+
+set inputbar-bg                 "#161b22"
+set inputbar-fg                 "#58a6ff"
+
+set notification-bg             "#161b22"
+set notification-fg             "#58a6ff"
+set notification-error-bg       "#2d1b1b"
+set notification-error-fg       "#ff7b72"
+set notification-warning-bg     "#2d1b1b"
+set notification-warning-fg     "#ff7b72"
+
+set completion-bg               "#161b22"
+set completion-fg               "#8b949e"
+set completion-group-bg         "#0d1117"
+set completion-group-fg         "#c084fc"
+set completion-highlight-bg     "#39ff14"
+set completion-highlight-fg     "#0d1117"
+
+set index-bg                    "#0d1117"
+set index-fg                    "#58a6ff"
+set index-active-bg             "#39ff14"
+set index-active-fg             "#0d1117"
+
+set highlight-color             "rgba(57,255,20,0.4)"   # neon green
+set highlight-active-color      "rgba(192,132,252,0.55)" # purple
+
+set recolor                     true
+set recolor-lightcolor          "#0d1117"   # page background
+set recolor-darkcolor           "#58a6ff"   # page text
+set recolor-keephue             true
+set recolor-reverse-video       true
+
+set adjust-open                 "best-fit"
+set pages-per-row               1
+set scroll-page-aware           true
+set scroll-step                 100
+set zoom-min                    10
+set incremental-search          true
+set window-title-basename       true
+set statusbar-home-tilde        true
